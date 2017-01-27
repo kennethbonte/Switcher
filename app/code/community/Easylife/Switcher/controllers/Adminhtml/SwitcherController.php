@@ -210,4 +210,9 @@ class Easylife_Switcher_Adminhtml_SwitcherController extends Mage_Adminhtml_Cont
             );
         }
     }
+
+    protected function _isAllowed()
+    {
+        return true;
+    }
 }
